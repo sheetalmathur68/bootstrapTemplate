@@ -19,12 +19,23 @@
    .seat{
     padding-top: 50px;
    }
+   @media screen and (max-width:992px){
+    .mid {
+      padding-top:100px;
+    }
+    .seat{
+        padding-top:50px;
+        padding-left: 150px;
+    }
+}
+
    @media screen and (max-width:768px){
     .mid {
       padding-top:70px;
     }
     .seat{
         padding-top:20px;
+        padding-left: 0px;
     }
 }
 .i{
